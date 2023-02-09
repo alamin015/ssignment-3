@@ -1,0 +1,112 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'EB Garamond', serif;
+}
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, .41),rgba(0, 0, 0, .41)),url('../images/banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-input input {
+    padding: 10px 6px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    max-width: 350px;
+    width: 80%;
+}
+ .legal-practice .card-body {
+    transition: all 1s;
+}
+.legal-practice .card-body:hover,.legal-practice .active {
+    background: linear-gradient(to bottom,#E7E7E7,transparent);
+    cursor: pointer;
+}
+.custom-icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: #B68C5A;
+    border-radius: 50%;
+    line-height: 28px;
+} 
+
+.our-client {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* Carousel section  */
+.my-item1 {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.my-item2 {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.my-item3 {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/slider-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.my-carousel {
+    height: 100%;
+    width: 75%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer-mb {
+    margin-bottom: 42px;
+}
+
+@media screen and (min-width:576px) {
+    .custom-flex {
+        width: 50%;
+    }
+    .item1{
+        border-right: 1px solid #b68d5a49;
+    }
+    .item2{
+        border-right: 1px solid #b68d5a49;
+        border-top: 1px solid #b68d5a49;
+    }
+    .item3{
+        border-top: 1px solid #b68d5a49;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+.item1,
+.item2,
+.item3,
+.item4{
+    border-bottom: 1px solid #B68C5A;
+}
+    
+}
